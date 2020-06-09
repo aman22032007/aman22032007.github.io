@@ -72,6 +72,6 @@ function nextplayer(){
     document.querySelector('#text1').textContent='0'
     document.getElementById('left').classList.toggle("active");
     document.getElementById('right').classList.toggle("active");
-    document.querySelector('.dice').style.display="none"
+    document.querySelector('.dice').style.display="block"
 }
   
