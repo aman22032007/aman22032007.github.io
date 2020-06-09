@@ -29,7 +29,7 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
     if(gameplaying){
 score[activeplayer]+=roundscore;
 document.getElementById('score-'+activeplayer).textContent=score[activeplayer];
-if(score[activeplayer]>=20){
+if(score[activeplayer]>=100){
     document.querySelector("#player-"+activeplayer).textContent="WINNER!";
     document.querySelector("#player-"+activeplayer).style="color:red;"
     document.querySelector('#aman').style.display="none";
