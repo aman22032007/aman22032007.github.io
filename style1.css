@@ -1,0 +1,146 @@
+#left{
+    margin-top:50px;margin-left:300px;
+    height:500px;}
+    #right{
+        height:500px;
+        margin-top:50px;}
+  /* Create three equal columns that floats next to each other */
+  .column{
+     
+    float: left;
+    width:25%;;
+    padding: 10px;
+    height: 300px;
+    background-color:white;
+    /* Should be removed. Only for demonstration */
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;}
+.leftside h1{
+    font-family: Lato;
+    padding-top: 35px;
+    text-align:center;
+    color:black;
+}
+.rightside h1{
+    font-family: Lato;
+   padding-top: 35px;
+   padding-bottom: 10px;;
+    text-align:center;
+    color:black;
+}
+.leftside button{
+    margin-left:350px;
+    background-color:whitesmoke
+}
+
+#button{
+    background:none!important;;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-80%);
+    height: 100px;
+    border:0px;
+    margin-top: 0px;
+    border:0px;
+    font-size: 25px;
+    color:grey;
+    transform:translateZ(0.35);
+    
+}
+#left button{
+    transform:translateX(-70%)translateY(-150%);
+}
+#score-0{
+    position: absolute;
+    transform:translateX(375%)translateY(80%);
+    font-size: 60;
+    color:red;
+}
+#score-1{
+    margin-top: 30px;
+    transform:translateY(55%);
+    font-size: 60;
+    color:red;
+}
+#rect-1{
+    position: absolute;
+    transform:translateX(-2%)translateY(190%);
+    margin-left:120px;
+}
+#rect-2{
+    margin-top:60px;
+    margin-left:120px;
+}
+#rollbutton{
+    background:none!important;;
+    position: absolute;
+    left: 50%;
+    top: 420px;
+    transform: translateX(-90%);
+    height: 10px;
+    border:0px;
+    font-size: 25px;
+    color:grey;
+    transform:rotateZ(0.35);
+}
+
+#holdbutton{
+    background:none!important;
+    position: absolute;
+    left: 50%;
+    top: 450px;
+    transform: translateX(-120%);
+    height: 100px;
+    border:0px;
+    border:0px;
+    font-size: 25px;
+    color:grey;
+    transform:flip;
+}
+#holdbutton:hover{
+    font-size: 30px;
+    left:51%
+}
+#rollbutton:hover{
+    font-size: 30px;
+    left:51%
+}
+#button:hover{
+    font-size: 30px;
+    left:51%
+}
+#button:active,#button:focus{
+    outline:none!important;
+    box-shadow: none!important;
+}
+#holdbutton:active,#holdbutton:focus{outline:none!important;
+    box-shadow: none!important;}
+#rollbutton:active,#rollbutton:focus{outline:none!important;
+    box-shadow: none!important;}
+
+.dice{
+position: absolute;
+    left: 50%;
+    top: 178px;
+    transform: translateX(-90%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.7);}
+    #roll{color:red;
+         margin-right:10px;}
+    #plus{color:red;
+        margin-right:10px;}
+    #hold{color:red;
+        margin-right:10px;}
+.active {
+   background-color: rgb(230, 230, 230); 
+}       
+#winner{
+    color:red;
+}
