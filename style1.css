@@ -144,6 +144,9 @@ position: absolute;
 .active {
    background-color: rgb(230, 230, 230); 
 }       
-#winner{
-    color:red;
+#winnerscore{
+    position: absolute;
+    left: 50%;
+    top: 520px;
+    transform: translateX(-80%);
 }
