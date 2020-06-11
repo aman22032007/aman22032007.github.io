@@ -24,7 +24,7 @@ diceDOM.src="dice-"+dice+".png";
     nextplayer();
 }
 */
-else if(dice!==1){
+ if(dice!==1){
     roundscore+=dice;
     document.querySelector('#text'+activeplayer).textContent=roundscore;
 }
