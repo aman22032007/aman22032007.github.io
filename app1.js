@@ -17,14 +17,13 @@ var diceDOM=document.querySelector('#aman');
 diceDOM.style.display="block";
 diceDOM.src="dice-"+dice+".png";
 /*
-    if(diceprevious===6&&dice===6){
+if(diceprevious===6&&dice===6){
     score[activeplayer]=0;
     document.getElementById("score-"+activeplayer).textContent="0";
     document.getElementById('#score-0').style="left:22%";
     nextplayer();
-}
-*/
- if(dice!==1){
+}*/
+if(dice!==1){
     roundscore+=dice;
     document.querySelector('#text'+activeplayer).textContent=roundscore;
 }
