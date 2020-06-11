@@ -17,7 +17,6 @@
          <li><h2>The grey background on a player's side shows the current player</h2></li>
          <li><h2>To create a new game click on the new game button</h2></li>
          <li><h2>If you want custom global  winning score then you can enter it into the number input </h2></li>
-         <li><h2>If you get two counting zero's then your global score will become zero</h2></li>
      </ul>
      <h2>Time to play pig</h2>  
     </p>
