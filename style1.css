@@ -127,11 +127,18 @@ p{
     box-shadow: none!important;}
 #rollbutton:active,#rollbutton:focus{outline:none!important;
     box-shadow: none!important;}
-
-.dice{
+.dice-0{
+    position: absolute;
+    left: 50%;
+    top: 170px;
+    transform: translateX(-90%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.7);  
+}
+.dice-1{
 position: absolute;
     left: 50%;
-    top: 178px;
+    top: 278px;
     transform: translateX(-90%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.7);}
